@@ -1,0 +1,324 @@
+/* .head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+    background-color: aqua;
+} */
+*{
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px;
+}
+.main {
+    background-image: url('images/w.jpg');
+    background-size: cover;
+}
+.main .power .navbar{
+    padding-bottom: 40px;
+}
+.nav-item a{
+    font-weight: bold;
+}
+.navbar{
+    z-index: 2;
+    color: black;
+}
+.navbar-brand{
+    padding-left: 60px;
+    font-weight: bold;
+
+}
+.market{
+    position: relative;
+    padding-bottom: 120px;
+    align-items: center;
+    text-align: left;
+}
+.box i{
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+    color: white;
+    
+}
+body{
+    background: fifbff;   
+}
+.tech{
+    height: 600px;
+}
+.carousel{
+    position: fixed;
+}
+.recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    height:fit-content;
+    
+}
+.bigcir{
+    position: relative;
+    bottom: 50px;
+    overflow: hidden;
+   
+}
+.video-circle {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    height: 120%;
+    width: 100%;
+    border-radius: 0% 0% 10% 500%;
+    object-fit: cover;
+}
+.ppl{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    width: 95vw;
+    align-items: center;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(252, 246, 247);
+}
+
+.ppl .txt{
+    text-align: center;
+}
+.ppl .txt h4{
+    padding-top: 20px;
+}
+.aug{
+    width: 500px;
+    height: fit-content;overflow: hidden;
+}
+.aug img{
+    padding: 3px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px  rgb(0, 0, 0);
+    overflow: hidden;
+}
+.txt{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    overflow: hidden; 
+    height: 100px;
+    background-color: white;
+}
+.txt h4{
+    width: 70%;
+}
+.txt .cir{
+    position: relative;
+    left:10px;
+    top:30px;
+    width:30%;
+    height: auto;
+    border-radius: 100%;
+    background-color: rgb(235, 235, 255);
+  
+}
+.navbarNavDropdown{
+    background-color: white;
+}
+.ready{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(58, 226, 83) , rgb(31, 1, 151));
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    color: aliceblue;
+    gap:20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.inp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.inp input{
+    height: 50%;
+    width: 30%;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+button{
+    height: 40px;
+    width: 100px;
+}
+.image img{
+    padding: 3px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px  rgb(0, 0, 0);
+}
+.image .row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.foot{
+    height:fit-content;
+    background-color: rgb(245, 239, 232);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foot h5{
+    font-weight: bold;
+}
+.foot .l{
+    padding-top: 40px;
+}
+.one img{
+    height: 150px;
+    width: 150px;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 237, 237);
+    line-height: 20px;
+    gap:20px;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.power{
+    text-align: left;
+    padding-bottom: 20px;
+    
+}
+
+.carousel-inner .carousel-caption img{
+    padding: 3px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px  rgb(255, 255, 255);
+}
+.carousel-control-prev {
+    padding-top: 132px !important;
+}
+.carousel-control-next {
+    padding-top: 132px !important;
+}
+.carousel-inner{
+    height: 280px;
+    width: 300px;
+}
+.bhead{
+    color: blue;
+    font-size: 25px;
+}
+.image-slider{
+    height: 20%;
+    width: 80%;
+}
+.i1{
+    color: rgb(32, 0, 84);
+}
+.i2{
+    color: rgb(30, 209, 30);
+}
+.i3{
+    color: rgb(219, 205, 12);
+}
+.i4{
+    color: rgb(255, 0, 102);
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+   
+    color:rgb(138, 138, 138);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.box h5{
+    color: black;
+}
+.box h2{
+    color: black;
+}
+.box sub{
+  font-size: 40px;  
+}
+.blast1,.blast2,.blast3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    color: black;
+}
+.blast1{
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(to right,rgb(0, 75, 121),rgb(81, 171, 244));
+    border-radius: 3px;
+    
+}
+.blast2{
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(to right,rgb(255, 234, 0),rgb(89, 244, 81));
+    border-radius: 3px;
+}
+.blast3{
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(to right,rgb(107, 0, 107),rgb(244, 81, 201));
+    border-radius: 3px;
+}
+.up{
+    height: 400px;
+    text-align: center;
+}
+.carousel-caption{
+    position: relative;
+    top:10px;
+    height: fit-content;
+}
+section{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.power .grp img{
+  border-radius: 100px 100px 200px 200px;
+  margin-left: 10%;
+}
+
+.circle{
+    position: relative;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    bottom: 490px;
+    left: 5px;
+}
